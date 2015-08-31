@@ -15,7 +15,8 @@ export default class App extends Component {
     return (
       <div className={styles.app}>
         <Logo />
-        <h1>CSS Modules Webpack Demo</h1>
+        <h1>CSS Modules Styling Demo</h1>
+        <p>An experimental demo of <a href="https://github.com/css-modules/css-modules">CSS Modules</a>, using <a href="https://github.com/andreypopp/styling">Styling</a> to compile JavaScript into locally scoped CSS.</p>
 
         <hr className={styles.hr} />
 

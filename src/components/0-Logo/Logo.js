@@ -1,4 +1,4 @@
-import styles from './Logo.css';
+import styles from './Logo.styling';
 
 import React, { Component } from 'react';
 

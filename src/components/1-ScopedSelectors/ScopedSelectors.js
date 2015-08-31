@@ -1,4 +1,4 @@
-import styles from './ScopedSelectors.css';
+import styles from './ScopedSelectors.styling';
 
 import React, { Component } from 'react';
 
