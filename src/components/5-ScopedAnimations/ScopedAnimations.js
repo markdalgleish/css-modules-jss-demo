@@ -1,4 +1,4 @@
-import styles from './ScopedAnimations.css';
+import styles from './ScopedAnimations.jss';
 
 import React, { Component } from 'react';
 

@@ -1,4 +1,4 @@
-import styles from './CompositionOverrides.css';
+import styles from './CompositionOverrides.jss';
 
 import React, { Component } from 'react';
 

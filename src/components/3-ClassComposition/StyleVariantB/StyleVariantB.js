@@ -1,4 +1,4 @@
-import styles from './StyleVariantB.css';
+import styles from './StyleVariantB.jss';
 
 import React, { Component } from 'react';
 

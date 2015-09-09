@@ -18,10 +18,18 @@ module.exports = {
 
   module: {
     loaders: [
-      { test: /\.styling.js$/, loader: styling(ExtractTextPlugin.extract('style-loader', 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader'), 'babel'), exclude: /node_modules/ },
+      { test: /\.jss.js$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader!jss-loader!babel-loader'), exclude: /node_modules/ },
       { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
       { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader') },
       { test: /\.svg$/, loader: "url-loader?limit=10000&mimetype=image/svg+xml" }
+    ]
+  },
+
+  jssLoader: {
+    plugins: [
+      require('jss-nested'),
+      require('jss-camel-case'),
+      require('jss-px')
     ]
   },
 

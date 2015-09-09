@@ -1,4 +1,4 @@
-import styles from './App.css';
+import styles from './App.jss';
 
 import React, { Component } from 'react';
 
@@ -15,8 +15,8 @@ export default class App extends Component {
     return (
       <div className={styles.app}>
         <Logo />
-        <h1>CSS Modules Styling Demo</h1>
-        <p>An experimental demo of <a href="https://github.com/css-modules/css-modules">CSS Modules</a>, using <a href="https://github.com/andreypopp/styling">Styling</a> to compile JavaScript into locally scoped CSS.</p>
+        <h1>CSS Modules JSS Demo</h1>
+        <p>An experimental demo of <a href="https://github.com/css-modules/css-modules">CSS Modules</a>, using <a href="https://github.com/jsstyles/jss">JSS</a> via <a href="https://github.com/markdalgleish/jss-loader">jss-loader</a> to compile JavaScript into locally scoped CSS.</p>
 
         <hr className={styles.hr} />
 

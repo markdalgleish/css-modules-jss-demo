@@ -1,4 +1,4 @@
-import styles from './GlobalSelectors.css';
+import styles from './GlobalSelectors.jss';
 
 import React, { Component } from 'react';
 

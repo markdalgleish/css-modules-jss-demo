@@ -1,6 +1,6 @@
-# CSS Modules Styling Demo
+# CSS Modules JSS Demo
 
-An experimental demo of [CSS Modules], using [Styling] to compile JavaScript into locally scoped CSS.
+An experimental demo of [CSS Modules], using [JSS] via [jss-loader] to compile JavaScript into locally scoped CSS.
 
 ## Run the example
 
@@ -14,5 +14,6 @@ $ npm start & open http://localhost:8080
 [MIT]
 
 [CSS Modules]: https://github.com/css-modules/css-modules
-[Styling]: https://github.com/andreypopp/styling
+[JSS]: https://github.com/jsstyles/jss
+[jss-loader]: https://github.com/markdalgleish/jss-loader
 [MIT]: http://markdalgleish.mit-license.org
