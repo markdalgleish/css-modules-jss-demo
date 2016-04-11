@@ -1,5 +1,4 @@
 var webpack = require('webpack');
-var styling = require('styling');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var ReactToHtmlPlugin = require('react-to-html-webpack-plugin');
 
